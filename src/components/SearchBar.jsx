@@ -1,5 +1,35 @@
-import { TextField } from '@material-ui/core';
+import { makeStyles } from '@material-ui/core/styles';
 import React, { useState, useEffect, useRef } from 'react';
+
+const useStyles = makeStyles((theme) => ({
+  search: {
+    display: 'flex',
+    width: '484px',
+    borderRadius: '24px',
+    border: '1px solid #d8d8d8',
+    '&focus': {
+      outline: 'none',
+    },
+    '&focus-within': {
+      borderBottomLeftRadius: '0',
+      borderBottomRightRadius: '0',
+      borderColor: 'rgba(223,225,229,0)',
+      boxShadow: '0 1px 6px 0 rgba(32,33,36,0.28)',
+    },
+    '&hover': {
+      boxShadow: '0 1px 6px 0 rgba(32,33,36,0.28)',
+      borderColor: 'rgba(223,225,229,0)',
+    },
+    '&input': {
+      height: '32px',
+      width: '100%',
+      padding: '8px 12px',
+      border: 'none',
+      fontSize: '16px',
+      borderRadius: '24px',
+    },
+  },
+}));
 
 let autoComplete;
 
@@ -39,6 +69,7 @@ function handleScriptLoad(updateQuery, autoCompleteRef) {
 }
 
 const SearchBar = () => {
+  const classes = useStyles();
   const [query, setQuery] = useState('');
   const autoCompleteRef = useRef(null);
 
@@ -49,8 +80,8 @@ const SearchBar = () => {
     );
   }, []);
   return (
-    <div className="search-location-input">
-      <TextField
+    <div className={classes.search}>
+      <input
         ref={autoCompleteRef}
         onChange={(event) => setQuery(event.target.value)}
         placeholder="Enter a City"
