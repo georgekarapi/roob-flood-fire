@@ -25,7 +25,7 @@ const Map = ({
   const classes = useStyles();
   const mapEl = useRef(null);
 
-  mapboxgl.accessToken = process.env.APIMAPBOX;
+  mapboxgl.accessToken = 'pk.eyJ1IjoiZ2thcmFwaSIsImEiOiJja2kya25rcHUxZW5hMnNvYW5vYWc1d2tpIn0.i3-Wxd8bAusPYp2R16fQtQ';
 
   useEffect(() => {
     const map = new mapboxgl.Map({
