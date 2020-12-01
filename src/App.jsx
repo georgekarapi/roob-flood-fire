@@ -1,13 +1,13 @@
 import { React } from 'react';
-import Container from '@material-ui/core/Container';
+import './App.css';
 
 import Dashboard from './pages/Dashboard';
 
 function App() {
   return (
-    <Container>
+    <div className="App">
       <Dashboard />
-    </Container>
+    </div>
   );
 }
 

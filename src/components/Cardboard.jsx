@@ -32,11 +32,12 @@ const Cardboard = ({ title, subtitle, child }) => {
 };
 
 Cardboard.defaultProps = {
+  title: '',
   subtitle: '',
 };
 
 Cardboard.propTypes = {
-  title: PropTypes.string.isRequired,
+  title: PropTypes.string,
   subtitle: PropTypes.string,
   child: PropTypes.object.isRequired,
 };
