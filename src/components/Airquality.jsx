@@ -10,14 +10,14 @@ import PropTypes from 'prop-types';
 import { Typography } from '@material-ui/core';
 
 const Airquality = ({ viewport }) => {
-  const { apiWeatherBitKey } = process.env;
+  const { APIWEATHERBITKEY } = process.env;
   const url = 'https://api.weatherbit.io/v2.0/history/airquality';
 
   const [data, setData] = useState([]);
 
   useEffect(() => {
     if (viewport.lat !== null || viewport.long !== null) {
-      axios.get(`${url}?lat=${viewport.lat}&lon=${viewport.long}&key=${apiWeatherBitKey}`)
+      axios.get(`${url}?lat=${viewport.lat}&lon=${viewport.long}&key=${APIWEATHERBITKEY}`)
         .then((res) => {
           if (res.data.data) {
             const temp = res.data.data.map((p) => ({
