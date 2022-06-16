@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/waterfront-hack2020/static/css/main.22b6e383.chunk.css",
-    "main.js": "/waterfront-hack2020/static/js/main.00408c80.chunk.js",
-    "main.js.map": "/waterfront-hack2020/static/js/main.00408c80.chunk.js.map",
-    "runtime-main.js": "/waterfront-hack2020/static/js/runtime-main.354f0e76.js",
-    "runtime-main.js.map": "/waterfront-hack2020/static/js/runtime-main.354f0e76.js.map",
-    "static/css/2.c5a2c212.chunk.css": "/waterfront-hack2020/static/css/2.c5a2c212.chunk.css",
-    "static/js/2.7f3a512c.chunk.js": "/waterfront-hack2020/static/js/2.7f3a512c.chunk.js",
-    "static/js/2.7f3a512c.chunk.js.map": "/waterfront-hack2020/static/js/2.7f3a512c.chunk.js.map",
-    "index.html": "/waterfront-hack2020/index.html",
-    "static/css/2.c5a2c212.chunk.css.map": "/waterfront-hack2020/static/css/2.c5a2c212.chunk.css.map",
-    "static/css/main.22b6e383.chunk.css.map": "/waterfront-hack2020/static/css/main.22b6e383.chunk.css.map",
-    "static/js/2.7f3a512c.chunk.js.LICENSE.txt": "/waterfront-hack2020/static/js/2.7f3a512c.chunk.js.LICENSE.txt"
+    "main.css": "/roob-flood-fire/static/css/main.22b6e383.chunk.css",
+    "main.js": "/roob-flood-fire/static/js/main.0e86e95d.chunk.js",
+    "main.js.map": "/roob-flood-fire/static/js/main.0e86e95d.chunk.js.map",
+    "runtime-main.js": "/roob-flood-fire/static/js/runtime-main.9047420d.js",
+    "runtime-main.js.map": "/roob-flood-fire/static/js/runtime-main.9047420d.js.map",
+    "static/css/2.c5a2c212.chunk.css": "/roob-flood-fire/static/css/2.c5a2c212.chunk.css",
+    "static/js/2.2bd83175.chunk.js": "/roob-flood-fire/static/js/2.2bd83175.chunk.js",
+    "static/js/2.2bd83175.chunk.js.map": "/roob-flood-fire/static/js/2.2bd83175.chunk.js.map",
+    "index.html": "/roob-flood-fire/index.html",
+    "static/css/2.c5a2c212.chunk.css.map": "/roob-flood-fire/static/css/2.c5a2c212.chunk.css.map",
+    "static/css/main.22b6e383.chunk.css.map": "/roob-flood-fire/static/css/main.22b6e383.chunk.css.map",
+    "static/js/2.2bd83175.chunk.js.LICENSE.txt": "/roob-flood-fire/static/js/2.2bd83175.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.354f0e76.js",
+    "static/js/runtime-main.9047420d.js",
     "static/css/2.c5a2c212.chunk.css",
-    "static/js/2.7f3a512c.chunk.js",
+    "static/js/2.2bd83175.chunk.js",
     "static/css/main.22b6e383.chunk.css",
-    "static/js/main.00408c80.chunk.js"
+    "static/js/main.0e86e95d.chunk.js"
   ]
 }
