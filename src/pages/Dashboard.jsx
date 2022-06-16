@@ -6,7 +6,7 @@ import Slide from '@material-ui/core/Slide';
 
 import Cityinfo from '../components/Cityinfo';
 import Cardboard from '../components/Cardboard';
-import Airquality from '../components/Airquality';
+import RiskCard from '../components/RiskCard';
 import Map from '../components/Map';
 
 const useStyles = makeStyles((theme) => ({
@@ -23,7 +23,10 @@ const useStyles = makeStyles((theme) => ({
 const Dashboard = () => {
   const classes = useStyles();
   const [viewport, setViewport] = useState({
-    place: null, lat: null, long: null, wikidata: null,
+    place: null,
+    lat: null,
+    long: null,
+    wikidata: null,
   });
 
   return (
@@ -35,7 +38,7 @@ const Dashboard = () => {
             <Cardboard child={<Cityinfo viewport={viewport} />} />
           </Grid>
           <Grid item md={6} sm={6} xs={12}>
-            <Cardboard title="Air Quality" child={<Airquality viewport={viewport} />} />
+            <Cardboard title="Risk Calculator" child={<RiskCard />} />
           </Grid>
         </Grid>
       </Slide>
